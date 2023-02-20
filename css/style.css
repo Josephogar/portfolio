@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+body{
+    background: #020312;
+    color: white;
+
+}
+
+header{
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    padding: 22px 10%;
+    
+}
+
+.logo{
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.navbar{
+    display: flex;
+}
+
+.navbar a{
+    color: #c5c1c1;;
+    padding: 10px 25px;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0 2px;
+    border-radius: 0.5rem;
+    transition: all .40s ease;
+}
+
+.navbar a:hover{
+    background: #eb4a4a;
+    color: white;
+}
+
+section{
+    padding: 160px 10% 90px; 
+}
+
+.home{
+    height: 100vh;
+    width: 100%;
+
+
+}
+
+.home-text h1{
+    margin: 20px 0;
+    font-size: 5.2rem;
+    font-weight: bold;
+    line-height: 1.1;
+    letter-spacing: 2px;
+}
+
+span {
+    color: #eb4a4a;
+}
+
+.home-text h4{
+    color: #eb4a4a;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.home-text h3{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 3rem;
+}
+
+.btn{
+    display: inline-block;
+    padding: 14px 40px;
+    border-radius: 0.5rem;
+    font-size: 17px;
+    font-weight: 500;
+    background: #eb4a4a;
+    color: white;
+    border: 1px solid #eb4a4a;
+    transition: all .40s ease;
+}
+
+.btn:hover{
+    transform: scale(1.01) translate(-5px);
+    background: transparent;
+    border: 1px solid #eb4a4a;
+}
+
+
+.about-text h4{
+    color: #020312;
+    
+}
